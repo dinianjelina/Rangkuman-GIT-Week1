@@ -23,3 +23,17 @@ GIT-Intro
 -clone: mengambil repo dari commit
 -push: mengirimkan commit ke repo
 -pull: mengambil commit dari repo
+
+GIT-Fundamental
+Perintah-perintah dasar untuk mengoperasikan GIT
+-git init: untuk menginisialisasi repo
+-git config: untuk mengonfigurasi email dan username
+-git status: untuk mengetahui status file berupa untracked (file belum terbaca oleh GIT), stagging area (file yang siap di-commit), modified (file yang dilakukan perubahan)
+-git add . : umtuk memasukkan file ke stagging area
+-git commit: untuk mencatat perubahan file
+-git log: untuk melihat riwayat commit
+-git clone: untuk meng-copy repo dari server
+-git remote: interaksi dari client ke server (repo)
+-git push: untuk mengirim commit ke server
+-git pull: untuk mengambil commit dari server
+
