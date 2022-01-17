@@ -50,3 +50,8 @@ Branch
 //Conflict
 Conflict terjadi ketika melakukan merging terdapat perubahan file yang sama. Ketika terjadi conflict maka tidak bisa dilakukan commit sehingga conflict harus diselesaikan terlebih dahulu.
 
+GUI
+-Sourcetree merupakan software GUI untuk memudahkan dalam mengoperasikan GIT
+-Kelebihan sourcetree: /mudah digunakan tanpa menggunakan terminal GIT
+                       /Menyelesaikan conflict lebih mudah terutama ketika terjadi conflict pada banyak file (diff merge)
+
