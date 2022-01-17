@@ -37,3 +37,16 @@ Perintah-perintah dasar untuk mengoperasikan GIT
 -git push: untuk mengirim commit ke server
 -git pull: untuk mengambil commit dari server
 
+Branch
+-Branch merupakan cabang dari repo yang bersifat independen.
+-Branch digunakan ketika ingin menambahkan fitur baru pada repo tanpa mengganggu file master.
+//Perintah Branch
+-git branch: untuk melihat semua branch (local)
+-git branch --all: untuk melihat semua branch (public)
+-git branch nama_branch: untuk membuat branch baru
+-git checkout nama_branch: untuk berpindah ke sebuah branch
+-git -d nama_branch: untuk menghapus branch
+-git merge nama_branch: untuk menggabungkan commit dari 2 branch
+//Conflict
+Conflict terjadi ketika melakukan merging terdapat perubahan file yang sama. Ketika terjadi conflict maka tidak bisa dilakukan commit sehingga conflict harus diselesaikan terlebih dahulu.
+
