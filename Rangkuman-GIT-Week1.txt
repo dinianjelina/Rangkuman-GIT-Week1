@@ -1,0 +1,25 @@
+GIT-Intro
+-Version Control System merupakan sistem yang menyimpan dan mengelola perubahan dari source code.
+-GIT merupakan salah satu dari version control system tersebut.
+-GIT merupakan software untuk mengelola dan menyimpan perubahan file dalam folder (repository/repo).
+-Manfaat GIT: \Menyimpan rekaman perubahan pada source code
+              \Memudahkan dalam berkolaborasi mengerjakan project web
+              \Mengetahui siapa dan kapan dilakukan perubahan file
+              \Dapat kembali ke kondisi sebelum dilakukan perubahan (checkout)
+\\GITHUB
+-GITHUB merupakan Layanan cloud untuk menyimpan dan mengelola repository/repo.
+-Secara fungsi, GITHUB sama dengan GIT. Hanya saja, GITHUB terhubung dengan internet sehingga cakupan kerja lebih luas.
+-Cakupan kerja lebih luas dalam artian:
+    /Repository dari GITHUB dapat di-cloning ke banyak client sehingga bisa dilakukan perubahan file melalui perangkat yang lain.
+    /Memungkinkan pengguna GITHUB yang lain untuk melihat dan melakukan perubahan pada repository yang dibuat (Forking)
+\\Istilah GIT
+-Repository/repo: folder project
+-Commit: rekaman/snapshot perubahan dari repo
+-hash: penanda commit (berupa angka random)
+-checkout: perintah untuk berpindah ke sebuah commit
+-branch: cabang bebas dari commit
+-merge: perintah untuk menggabungkan branch
+-remote: sumber yang memiliki repo
+-clone: mengambil repo dari commit
+-push: mengirimkan commit ke repo
+-pull: mengambil commit dari repo
